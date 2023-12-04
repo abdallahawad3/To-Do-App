@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(160deg, #113946, #001524);
+  /* text-decoration: ; */
+}
+
+ul li {
+  list-style: none;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 20px;
+}
+
+.container .head  {
+  margin-bottom: 20px;
+}
+
+.container .head h1{
+  display: flex;
+  align-items: center;
+  color: #190482;
+  gap: 10px;
+}
+
+.container .head h1 img {
+  width: 40px;
+}
+
+.container .input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.container .input input {
+  width: 95%;
+  padding: 10px;
+  border-radius: 5rem;
+  outline: 0;
+  border: 2px solid #EAD7BB;
+}
+
+.container .input button {
+  outline: 0;
+  padding: 9px 19px;
+  border-radius: 5rem;
+  border: 1px solid #CD5C08;
+  background-color: #F5E8B7;
+  position: absolute;
+  right: 18.9px;
+  cursor: pointer;
+  color: #176B87;
+  font-size: 16px;
+}
+
+.body ul li {
+  position: relative;
+  padding: 10px 5px;
+  background-color: #579BB1;
+  border-radius: .5rem;
+  margin-bottom: 10px;
+  color: #E1D7C6;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px
+}
+
+.body ul li .left {
+  cursor: pointer;
+}
+
+.body ul li .right {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
